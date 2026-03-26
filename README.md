@@ -1,38 +1,41 @@
 # 🎨 Web3 UI & Frontend Architecture
-**Lead UI/UX Engineer:** SJayJaybee  
+**Lead UI/UX Engineer:** SJAYJAYBEE  
 **Environment:** React / Tailwind CSS / Mobile-First 
 
 ---
 
-> *"Mass adoption requires zero-friction onboarding. This repository showcases high-fidelity, production-ready frontend architectures designed specifically for Web3 ecosystems, focusing on trust, speed, and native-feeling mobile interactions."*
+> *"I've seen incredible Web3 protocols fail simply because their UI was too complicated for retail users. Mass adoption requires zero-friction onboarding. I built this repository to showcase high-fidelity, production-ready frontend architectures designed specifically for trust, speed, and native-feeling mobile interactions."*
 
 ## 📱 Interface Index
 
 ### 🔐 Module 1: ZK-Vault Authentication Dashboard
-A premium, dark-mode decentralized application (dApp) interface. Designed to simulate a frictionless, zero-knowledge proof login sequence, bypassing the UX hurdle of traditional seed phrases.
+Seed phrases kill conversion rates. I designed this premium, dark-mode dApp interface to simulate a frictionless, zero-knowledge proof login sequence. It bypasses the traditional UX hurdles while maintaining enterprise fintech design standards.
 
 * **Tech Stack:** React, Tailwind CSS, Dynamic State Management
-* **Core Function:** High-converting landing environment with simulated cryptographic handshakes and live balance rendering.
-* **Design Philosophy:** Clean, trust-inducing aesthetic built to enterprise fintech standards.
+* **Core Function:** A high-converting landing environment with simulated cryptographic handshakes and live balance rendering.
+* **Design Philosophy:** Clean, trust-inducing aesthetic built to keep retail users feeling secure.
 
-🎥 **[Live UI Interaction Proof: Insert Unlisted YouTube Link Here]**
+🎥 **[Watch UI Interaction Proof: ZK-Vault Dashboard](https://youtu.be/wrdHJ7MPp9k)**
 
 ---
 
 ### 💎 Module 2: TON Ecosystem Mini-App (Swap Bot)
-A mobile-first Web3 interface engineered specifically to run natively inside the Telegram Open Network (TON). 
+Founders want users to trade without ever leaving their messaging apps. I engineered this mobile-first Web3 interface specifically to run natively inside the Telegram Open Network (TON). 
 
 * **Tech Stack:** React, Inline CSS Keyframe Animation, Auto-Math Engine
-* **Core Function:** Features a live, dynamic state calculator that converts token inputs into USDT values in real-time, simulating oracle price feeds.
-* **Design Philosophy:** Exact replication of Telegram's native dark-mode UI/UX to ensure users feel secure interacting with the smart contract without leaving their messaging app.
+* **Core Function:** Features a live, dynamic state calculator that converts token inputs into USDC values in real-time, simulating oracle price feeds.
+* **Design Philosophy:** Exact replication of Telegram's native dark-mode UI/UX so users feel completely at home interacting with the smart contract.
 
-🎥 **[Live UI Interaction Proof: Insert Unlisted YouTube Link Here]**
-
----
-
-## 🔒 OPSEC & Deployment Protocol
-* **Sanitized States:** To maintain strict operational security, the code in this public branch utilizes sanitized placeholder data (`0.00` balances and mock addresses). 
-* **Dynamic Verification:** The live execution videos linked above demonstrate the UI components processing dynamic variables and interacting with user inputs in real-time.
+🎥 **[Watch Mobile UI Proof: TON Swap Mini-App](https://youtube.com/shorts/hW5PLwTKqfI)**
 
 ---
-*Architected for the next billion users by SJayJaybee.*
+
+## 🔒 OPSEC & Visual Data Protection
+As a security standard, I do not expose live production environments or proprietary routing logic to the public. Please note the following regarding the code and video proofs above:
+
+* **Simulated State Data:** To ensure zero risk of live API manipulation, the balances, wallet addresses, and exchange rates shown in this repository and the accompanying videos are running on **simulated placeholder data**. This proves my React state management logic flows perfectly without faking live financial data.
+* **Visual Obfuscation:** You will notice custom watermarks, highlights, and obscured code blocks in my execution videos. This is intentional. I actively cover specific source code paths to protect my proprietary UI architecture from being scraped or cloned by public bots.
+* **Code Divergence:** The variables in this public repository differ slightly from the video proofs to demonstrate that these are dynamic, modular components, not static hardcoded screens.
+
+---
+*Architected for the next billion users by SJAYJAYBEE.*
