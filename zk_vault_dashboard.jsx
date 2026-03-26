@@ -9,10 +9,10 @@ export default function App() {
   const connectWallet = () => {
     setIsConnecting(true);
     
-    // Simulating the delay of a Web3 wallet handshake
+    // Simulate zero-knowledge proof verification delay
     setTimeout(() => {
-      setWalletAddress('0x71C...9A23');
-      setBalance('4.205 ETH');
+      setWalletAddress('0x4A2...F918');
+      setBalance('18.75 zkETH');
       setIsConnected(true);
       setIsConnecting(false);
     }, 1800);
@@ -21,7 +21,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center p-6 font-sans">
       
-      {/* THE CRUSHER: Cyber-Glitch CSS injected directly into the component */}
+      {/* Custom CSS keyframes for branded UI watermark */}
       <style>{`
         @keyframes cyber-glitch {
           0%, 90% { text-shadow: none; transform: translate(0); }
@@ -97,4 +97,4 @@ export default function App() {
       </div>
     </div>
   );
-        }
+              }
